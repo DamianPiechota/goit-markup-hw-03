@@ -1,13 +1,12 @@
-/*header {
-position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-border: 1px;
-border-color: #ECECEC;
-}*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 body {
     font-family: "Roboto", sans-serif;
@@ -70,6 +69,18 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+
+  .nav-portfolio {
+    display: flex;
+    flex-grow: 1;
+    max-width: 10%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
   
   .menu {
@@ -78,6 +89,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #2196f3;
+    display: flex;
+    flex-grow: 1;
+    justify-content: none;
+    gap: 50px;
   }
   
   .menu a {
@@ -90,6 +105,24 @@ body {
     color: #2196f3;
   }
   
+  .menu-contact {
+    font: weight 500px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196f3;
+    display: flex;
+    flex-grow: 1;
+    gap: 50px;
+    justify-content: space-around;
+    text-decoration: none;
+  }
+
+  .menu-contact a {
+    text-decoration: none;
+    color: #000000;
+  }
+
   .menu-footer {
     font-size: 14px;
     line-height: 1.71;
@@ -109,6 +142,11 @@ body {
   
   .bar {
     background-color: #2f303a;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
   }
   
   .button-bar {
@@ -125,6 +163,7 @@ body {
     letter-spacing: 0.06em;
     color: #ffffff;
     border: 0px;
+    padding: 10px 42px;
   }
   
   .h-lorem {
@@ -134,6 +173,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+    margin-bottom: 10px;
   }
   
   .description-lorem {
@@ -163,6 +203,8 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
   
   .profession {
@@ -171,6 +213,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-bottom: 30px;
   }
   
   .people {
@@ -182,6 +225,8 @@ body {
   
   footer {
     background: #2f303a;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   address {
@@ -203,6 +248,7 @@ body {
     font-family: inherit;
     border: 1px;
     border-color: #EEEEEE;
+    padding: 6px 22px;
   }
   
   .button-portfolio:hover {
@@ -223,6 +269,7 @@ body {
   .realizations {
     background: #ffffff;
     border: 1px solid #eeeeee;
+    margin-bottom: 30px;
   }
   
   .name-project {
@@ -231,6 +278,7 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: #212121;
+    padding: 20px 24px 1px 24px;
   }
   
   .type-project {
@@ -238,12 +286,50 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: #757575;
+    padding: 1px 24px 20px 24px;
   }
 
-  /*.techno {
-    position: absolute;
-width: 370px;
-height: 404px;
-left: 215px;
-top: 262px;
-  }*/
+  .header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-bottom: #ececec 1px solid;
+    height: 100px;
+  }
+
+.realizations-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.h-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hp3-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-bottom: 100px;
+}
+
+.our-team {
+  background: #f5f4fa;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  
+}

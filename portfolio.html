@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PracaDomowa2DamianPiechota</title>
+    <title>PracaDomowa3DamianPiechota</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+  />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +18,7 @@
     <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
-    <header> 
+    <header class="header-wrapper container"> 
         <div class="second-font">
             <span class="logo-left"><a href="index.html">Web</a></span>
             <span class="logo-right"> <a href="./index.html">Studio</a></span>
@@ -25,7 +29,7 @@
                 <li><a href="./portfolio.html">Portfolio</a></li>
                 <li><a href="/Kontakt">Kontakt</a></li>
             </ul>
-            <ul class="menu">
+            <ul class="menu-contact">
                 <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                 <li><a href="tel:+48111111111">+48 111 111 111</a></li>
             </ul>
@@ -33,7 +37,7 @@
     </header>
 <main>
     <div>
-        <ul>
+        <ul class="nav-portfolio container">
             <li><button type="button" class="button-portfolio">Wszystkie</button> </li>
             <li><button type="button" class="button-portfolio">Strony</button> </li>
             <li><button type="button" class="button-portfolio">Aplikacje</button> </li>
@@ -42,7 +46,7 @@
         </ul>
     </div>
 <section>
-    <ul>
+    <ul class="realizations-wrapper container">
         <li class="realizations">
             <img class="techno"
               src="./images/Techno.jpg"
@@ -136,6 +140,7 @@
         </ul>
 </main>
 <footer>
+  <div class="container">
     <div class="second-font">
         <span class="logo-left"> <a href="#">Web</a></span>
         <span class="logo-right-footer"> 
@@ -147,6 +152,7 @@
         <li><a href="mailto:info@example.com">info@example.com</a></li>
         <li><a href="tel:+48 111 111 111">+48 111 111 111</a></li>
       </ul>
+  </div>
 </footer> 
 
 </body>
