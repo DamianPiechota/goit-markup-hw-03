@@ -10,9 +10,6 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    background: #E5E5E5;
-    color: #212121;
-
   }
   
   .second-font {
@@ -90,8 +87,8 @@ body {
     letter-spacing: 0.02em;
     color: #2196f3;
     display: flex;
-    flex-grow: 1;
-    justify-content: none;
+    justify-content:space-between;
+    text-decoration: none;
     gap: 50px;
   }
   
@@ -106,7 +103,7 @@ body {
   }
   
   .menu-contact {
-    font: weight 500px;
+    font-weight: 500px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
@@ -114,13 +111,18 @@ body {
     display: flex;
     flex-grow: 1;
     gap: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
     text-decoration: none;
   }
 
   .menu-contact a {
     text-decoration: none;
     color: #000000;
+  }
+
+  .mailto a:hover {
+    text-decoration: none;
+    color: #2196f3;
   }
 
   .menu-footer {
@@ -147,6 +149,8 @@ body {
     align-items: center;
     flex-direction: column;
     margin: 0 auto;
+    justify-content: center;
+    gap: 30px;
   }
   
   .button-bar {
@@ -164,6 +168,7 @@ body {
     color: #ffffff;
     border: 0px;
     padding: 10px 42px;
+    cursor: pointer;
   }
   
   .h-lorem {
@@ -181,6 +186,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 270px;
+    height: 75px;
   }
   
   li {
@@ -221,6 +228,7 @@ body {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    
   }
   
   footer {
@@ -249,21 +257,12 @@ body {
     border: 1px;
     border-color: #EEEEEE;
     padding: 6px 22px;
+    cursor: pointer;
   }
   
   .button-portfolio:hover {
     background: #2196f3;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-      0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #ffffff;
-    font-family: inherit;
-    border: 0px;
+    color:#ffffff;
   }
   
   .realizations {
@@ -279,6 +278,7 @@ body {
     letter-spacing: 0.06em;
     color: #212121;
     padding: 20px 24px 1px 24px;
+    
   }
   
   .type-project {
@@ -287,24 +287,16 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     padding: 1px 24px 20px 24px;
-  }
-
-  .header-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: #ececec 1px solid;
-    height: 100px;
+    
   }
 
 .realizations-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
-  margin-top: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
   margin-bottom: 100px;
 }
 
@@ -315,6 +307,7 @@ body {
   gap: 40px
   margin-top: 100px;
   margin-bottom: 100px;
+  padding: 100px 0px 100px;
 }
 
 .hp3-wrapper {
@@ -327,9 +320,28 @@ body {
   margin-bottom: 100px;
 }
 
-.our-team {
+.our-team container {
   background: #f5f4fa;
   padding-top: 90px;
   padding-bottom: 20px;
-  
 }
+
+header {
+  border-bottom: #ececec 1px solid;
+  height: 100px;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-wrapper {
+  display: flex;
+  align-items:center;
+  gap: 75px
+}
+
