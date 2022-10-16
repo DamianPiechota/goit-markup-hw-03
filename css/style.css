@@ -320,8 +320,8 @@ body {
   margin-bottom: 100px;
 }
 
-.our-team container {
-  background: #f5f4fa;
+.our-team .container {
+  background-color: #F5F4FA;
   padding-top: 90px;
   padding-bottom: 20px;
 }
