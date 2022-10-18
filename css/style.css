@@ -309,7 +309,7 @@ body {
 
 .h-wrapper {
   display:flex;
-  align-items: center;
+  align-items:center;
   justify-content: space-between;
   gap: 40px;
   /*margin-top: 100px;*/
@@ -352,6 +352,6 @@ header {
   gap: 75px
 }
 
-.lorem {
+/*.lorem {
   padding: 0px;
-}
+}*/
