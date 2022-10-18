@@ -8,6 +8,12 @@
   margin: 0 auto;
 }
 
+section {
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
@@ -77,8 +83,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin-top: 100px;
-    margin-bottom: 50px;
+    /*margin-top: 100px;*/
+    /*margin-bottom: 50px;*/
   }
   
   .menu {
@@ -187,8 +193,8 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color: #757575;
-    width: 270px;
-    height: 75px;
+    /*width: 270px;
+    height: 75px;*/
   }
   
   li {
@@ -298,17 +304,16 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
 .h-wrapper {
-  display: flex;
-  flex-wrap: wrap;
+  display:flex;
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  /*margin-top: 100px;*/
+  /*margin-bottom: 100px;*/
 }
 
 .hp3-wrapper {
@@ -318,13 +323,13 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   flex-grow: 1;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
 .our-team {
   background-color: #F5F4FA;
-  padding-top: 90px;
-  padding-bottom: 20px;
+  /*padding-top: 90px;
+  padding-bottom: 20px;*/
 }
 
 
